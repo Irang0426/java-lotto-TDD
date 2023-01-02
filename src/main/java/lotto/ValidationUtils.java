@@ -18,4 +18,8 @@ public class ValidationUtils {
             return false;
         }
     }
+
+    public static boolean validDuplication(int bonusNumber, List<Integer> lotto) {
+        return !lotto.contains(bonusNumber);
+    }
 }
